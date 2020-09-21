@@ -17,13 +17,14 @@ jobs:
       uses: poad/update-node-modules@master
       with:
         yarn: true
+    - run: sudo chown runner -R dist
     - name: update and test
       run: |
         yarn global add ts-jest && \
         yarn install && \
         yarn build && \
         yarn test && \
-        rm -rf coverage node_modules build
+        rm -rf coverage node_modules dist
     - name: Commit files
       run: |
         git config --local user.email "ken-yo@mbr.nifty.com"

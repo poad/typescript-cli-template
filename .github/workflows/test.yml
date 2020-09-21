@@ -8,6 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: docker://node:lts-buster-slim
+    - run: yarn global add ts-jest
     - run: yarn install
     - run: yarn build
     - run: yarn test
