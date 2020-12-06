@@ -14,9 +14,10 @@ jobs:
     - uses: actions/checkout@master
     - uses: docker://node:lts-buster-slim
     - name: update and test
-      uses: poad/update-node-modules@master
+      uses: poad/update-node-modules@main
       with:
         yarn: true
+        debug: true
     - run: sudo chown runner -R dist
     - name: update and test
       run: |
