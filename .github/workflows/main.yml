@@ -20,6 +20,8 @@ jobs:
         debug: true
     - run: sudo chown runner -R dist
     - name: update and test
+      env:
+        HUSKY_SKIP_INSTALL: 1
       run: |
         yarn global add ts-jest && \
         yarn install && \
