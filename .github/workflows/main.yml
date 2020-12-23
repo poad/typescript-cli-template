@@ -6,6 +6,9 @@ on:
     - main 
   schedule:
     - cron:  '0 0 * * 0'
+  pull_request:
+    branches:
+      - main
 
 jobs:
   auto_update:
@@ -21,7 +24,7 @@ jobs:
     - run: sudo chown runner -R dist
     - name: update and test
       env:
-        HUSKY_SKIP_INSTALL: 1
+        HUSKY_SKIP_INSTALL: "1"
       run: |
         yarn global add ts-jest && \
         yarn install && \
