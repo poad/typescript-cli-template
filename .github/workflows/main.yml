@@ -6,9 +6,6 @@ on:
     - main 
   schedule:
     - cron:  '0 0 * * 0'
-  pull_request:
-    branches:
-      - main
 
 jobs:
   auto_update:
@@ -70,9 +67,3 @@ jobs:
         webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
         text: ${{ format('{0} {1}\nPull Request <{2}>', github.workflow, job.status, env.PULL_REQUEST_HTML_URL) }}
 
-    - name: Send result without Pull Request
-      if: success() && env.CHANGE_STATE != 'changed'
-      uses: ./.github/actions/slack_notificator
-      with:
-        webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
-        text: ${{ format('{0} {1}', github.workflow, job.status) }}
