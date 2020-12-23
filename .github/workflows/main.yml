@@ -14,23 +14,24 @@ jobs:
   auto_update:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
     - uses: docker://node:lts-buster-slim
     - name: update and test
-      uses: poad/update-node-modules@main
+      env:
+        HUSKY_SKIP_INSTALL: 1
+      uses: poad/update-node-modules@v1
       with:
         yarn: true
-        debug: true
     - run: sudo chown runner -R dist
     - name: update and test
       env:
-        HUSKY_SKIP_INSTALL: "1"
+        HUSKY_SKIP_INSTALL: 1
       run: |
         yarn global add ts-jest && \
         yarn install && \
         yarn build && \
         yarn test && \
-        rm -rf coverage
+        rm -rf coverage dist node_modules
     - name: Commit files
       run: |
         git config --local user.email "ken-yo@mbr.nifty.com"
@@ -38,7 +39,7 @@ jobs:
         TIMESTAMP=$(date)
         BRANCH_NAME="feature/bump-modules-$(date "+%Y%m%d-%H%M%S")"
         git checkout -b "${BRANCH_NAME}"
-        if [ $(git diff | wc -l) -eq 0 ]; then
+        if [ $(git diff package.json | wc -l) -eq 0 ]; then
           echo "CHANGE_STATE=no_changed" >> $GITHUB_ENV
           exit 0
         fi
