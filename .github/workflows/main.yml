@@ -53,13 +53,14 @@ jobs:
         branch: ${{ env.BRANCH_NAME }}
     - name: Create pull request
       if: success() && env.CHANGE_STATE == 'changed'
-      uses: ./.github/actions/create_pull_request
+      uses: poad/github-pull-request-generate-action@v0.0.1
       with:
         branch_name: ${{ env.BRANCH_NAME }}
         title: ${{ format('Auto update at {0}', env.TIMESTAMP) }}
         body: ${{ format('Update the modules at {0}', env.TIMESTAMP) }}
         github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
-        repository: ${{ github.repository }}
+        repository: typescript-cli-template
+        owner: poad
     - name: Send result with Pull Request
       if: success() && env.CHANGE_STATE == 'changed'
       uses: ./.github/actions/slack_notificator
