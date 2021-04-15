@@ -664,10 +664,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.1.tgz#56af902ad157e763f9ba63d671c39cda3193c835"
   integrity sha512-oTQgnd0hblfLsJ6BvJzzSL+Inogp3lq9fGgqRkMB/ziKMgEUaFl801OncOzUmalfzt14N0oPHMK47ipl+wbTIw==
 
-"@types/node@^14.14.37":
-  version "14.14.37"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
-  integrity sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==
+"@types/node@^14.14.39":
+  version "14.14.39"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.39.tgz#9ef394d4eb52953d2890e4839393c309aa25d2d1"
+  integrity sha512-Qipn7rfTxGEDqZiezH+wxqWYR8vcXq5LRpZrETD19Gs4o8LbklbmqotSUsMU+s5G3PJwMRDfNEYoxrcBwIxOuw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -4792,10 +4792,10 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@^5.32.0:
-  version "5.32.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.32.0.tgz#f013932d778dad81bd51292d0ea00865056dc22c"
-  integrity sha512-jB9PrNMFnPRiZGnm/j3qfNqJmP3ViRzkuQMIf8za0dgOYvSLi/cgA+UEEGvik9EQHX1KYyGng5PgBTTzGrH9xg==
+webpack@^5.33.2:
+  version "5.33.2"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.33.2.tgz#c049717c9b038febf5a72fd2f53319ad59a8c1fc"
+  integrity sha512-X4b7F1sYBmJx8mlh2B7mV5szEkE0jYNJ2y3akgAP0ERi0vLCG1VvdsIxt8lFd4st6SUy0lf7W0CCQS566MBpJg==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.46"
