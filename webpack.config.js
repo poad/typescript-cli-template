@@ -5,8 +5,11 @@ module.exports = {
       rules: [
         {
           test: /\.ts$/,
-          use: ['ts-loader'],
-          exclude: /node_modules/
+          use: {
+            // `.swcrc` can be used to configure swc
+            loader: "swc-loader"
+          },
+          exclude: /(node_modules|bower_components)/,
         }
       ]
     },
