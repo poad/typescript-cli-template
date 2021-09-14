@@ -657,7 +657,7 @@
   resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.87.tgz#597fc751dc08ae0de529357b5e9af3fd6611cbfb"
   integrity sha512-BMs4uZO5g8U/GEg9vFAYOi+rcq/jTD/Zqq4emJfyo9Yei1Y2XXou2T1q1FZqVMRa62KE28RU0c8no09hDPDKJg==
 
-"@swc/core@^1.2.52", "@swc/core@^1.2.87":
+"@swc/core@^1.2.87":
   version "1.2.87"
   resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.87.tgz#76bc5bb146ee3bba15270d8c676ef7121f1e690c"
   integrity sha512-HIBsPXCQ20zRKBORsmcbuVKiAmpn4fPP1TbeeIr5uhY4dxXjzFiRnhLky10ruihRn8GeRUJhf2FAxv9fbW5Avw==
@@ -3363,12 +3363,11 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-swc-loader@^0.1.14:
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/swc-loader/-/swc-loader-0.1.14.tgz#822f45e5cad45137da8f8ac7f54861baf8caefb8"
-  integrity sha512-JNSnwWj2EK5tbSWHELcYe8sJVQEHoezLYZRwRTW6HcelsLgsy+i4V1HFW8x1tcfZLvWyyTyompeVUuwpVudtTQ==
+swc-loader@^0.1.15:
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/swc-loader/-/swc-loader-0.1.15.tgz#cb9c630ccfbb46dabc5aebc5560cced658e32992"
+  integrity sha512-cn1WPIeQJvXM4bbo3OwdEIapsQ4uUGOfyFj0h2+2+brT0k76DCGnZXDE2KmcqTd2JSQ+b61z2NPMib7eEwMYYw==
   dependencies:
-    "@swc/core" "^1.2.52"
     loader-utils "^2.0.0"
 
 symbol-tree@^3.2.4:
