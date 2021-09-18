@@ -37,7 +37,7 @@ jobs:
           ${{ runner.os }}-yarn-
 
     - name: Build and Unittest
-      run: yarn all
+      run: yarn install && yarn all
   
   configure:
     runs-on: ubuntu-latest
