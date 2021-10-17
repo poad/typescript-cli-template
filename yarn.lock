@@ -483,7 +483,7 @@
     graceful-fs "^4.2.4"
     source-map "^0.6.0"
 
-"@jest/test-result@^27.3.0":
+"@jest/test-result@^27.2.5", "@jest/test-result@^27.3.0":
   version "27.3.0"
   resolved "https://registry.yarnpkg.com/@jest/test-result/-/test-result-27.3.0.tgz#e093c5d9eb34afa1b653cdb550c4bcaeb3096233"
   integrity sha512-5+rYZgj562oPKjExQngfboobeIF2FSrgAvoxlkrogEMIbgT7FY+VAMIkp03klVfJtqo3XKzVWkTfsDSmZFI29w==
@@ -2398,7 +2398,7 @@ jest-snapshot@^27.3.0:
     pretty-format "^27.3.0"
     semver "^7.3.2"
 
-jest-util@^27.3.0:
+jest-util@^27.2.5, jest-util@^27.3.0:
   version "27.3.0"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-27.3.0.tgz#178f211d308c25c9593d1c5a2f2b3aef28411741"
   integrity sha512-SFSDBGKkxXi4jClmU1WLp/cMMlb4YX6+5Lb0CUySxmonArio8yJ2NALMWvQuXchgySiH7Rb912hVZ2QZ6t3x7w==
@@ -2835,6 +2835,16 @@ prettier@^2.4.1:
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
 
 pretty-format@^27.0.0, pretty-format@^27.3.0:
+  version "27.3.0"
+  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.3.0.tgz#ab4679ffc25dd9bc29bab220a4a70a873a19600e"
+  integrity sha512-Nkdd0xmxZdjCe6GoJomHnrLcCYGYzZKI/fRnUX0sCwDai2mmCHJfC9Ecx33lYgaxAFS/pJCAqhfxmWlm1wNVag==
+  dependencies:
+    "@jest/types" "^27.2.5"
+    ansi-regex "^5.0.1"
+    ansi-styles "^5.0.0"
+    react-is "^17.0.1"
+
+pretty-format@^27.3.0:
   version "27.3.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.3.0.tgz#ab4679ffc25dd9bc29bab220a4a70a873a19600e"
   integrity sha512-Nkdd0xmxZdjCe6GoJomHnrLcCYGYzZKI/fRnUX0sCwDai2mmCHJfC9Ecx33lYgaxAFS/pJCAqhfxmWlm1wNVag==
