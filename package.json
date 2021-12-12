@@ -18,8 +18,8 @@
     "all": "yarn lint && yarn build && yarn test"
   },
   "devDependencies": {
-    "@swc/cli": "^0.1.52",
-    "@swc/core": "^1.2.118",
+    "@swc/cli": "^0.1.53",
+    "@swc/core": "^1.2.119",
     "@swc/helpers": "^0.3.2",
     "@swc/jest": "^0.2.12",
     "@types/jest": "^27.0.3",
@@ -31,10 +31,10 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^27.4.3",
+    "jest": "^27.4.4",
     "prettier": "^2.5.1",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.3"
   },
   "dependencies": {
     "arg": "^5.0.1"
