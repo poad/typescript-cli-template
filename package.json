@@ -34,7 +34,7 @@
     "jest": "^27.4.7",
     "prettier": "^2.5.1",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.5"
   },
   "dependencies": {
     "arg": "^5.0.1"
