@@ -11,15 +11,16 @@
   },
   "scripts": {
     "test": "NODE_ENV=test jest --coverage --passWithNoTests",
-    "prepare": "yarn all",
     "build": "swc --delete-dir-on-start src -d dist",
     "dev": "swc --watch src -d dist",
     "lint": "eslint src/**/* src/*.ts",
-    "all": "yarn lint && yarn build && yarn test"
+    "postinstall": "yarn all",
+    "pretest": "yarn build",
+    "all": "yarn lint && yarn test"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.57",
-    "@swc/core": "^1.2.173",
+    "@swc/core": "^1.2.174",
     "@swc/helpers": "^0.3.9",
     "@swc/jest": "^0.2.20",
     "@types/jest": "^27.4.1",
@@ -31,12 +32,19 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.1.5",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^28.0.3",
+    "jest": "^27",
     "prettier": "^2.6.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   },
   "dependencies": {
     "arg": "^5.0.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(t|j)sx?$": [
+        "@swc/jest"
+      ]
+    }
   }
 }
