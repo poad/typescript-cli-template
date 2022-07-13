@@ -14,7 +14,6 @@
     "build": "swc --delete-dir-on-start src -d dist",
     "dev": "swc --watch src -d dist",
     "lint": "eslint src/**/* src/*.ts",
-    "postinstall": "yarn all",
     "pretest": "yarn build",
     "all": "yarn lint && yarn test"
   },
