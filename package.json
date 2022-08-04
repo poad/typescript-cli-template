@@ -15,6 +15,7 @@
     "dev": "swc --watch src -d dist",
     "lint": "eslint src/**/* src/*.ts",
     "pretest": "yarn build",
+    "package": "echo Skip the packaging process",
     "all": "yarn lint && yarn test"
   },
   "devDependencies": {
