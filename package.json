@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "arg": "*",
-    "got": ">=11.8.5"
+    "got": ">=13.0.0"
   },
   "resolutions": {
     "semver-regex": ">=3.1.3",
