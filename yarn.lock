@@ -2456,17 +2456,7 @@ jest-leak-detector@^29.5.0:
     jest-get-type "^29.4.3"
     pretty-format "^29.5.0"
 
-jest-matcher-utils@^29.5.0:
-  version "29.6.0"
-  resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-29.6.0.tgz#4465344800591022a5239f529857c053da6a9d5c"
-  integrity sha512-oSlqfGN+sbkB2Q5um/zL7z80w84FEAcLKzXBZIPyRk2F2Srg1ubhrHVKW68JCvb2+xKzAeGw35b+6gciS24PHw==
-  dependencies:
-    chalk "^4.0.0"
-    jest-diff "^29.6.0"
-    jest-get-type "^29.4.3"
-    pretty-format "^29.6.0"
-
-jest-matcher-utils@^29.6.0:
+jest-matcher-utils@^29.5.0, jest-matcher-utils@^29.6.0:
   version "29.6.0"
   resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-29.6.0.tgz#4465344800591022a5239f529857c053da6a9d5c"
   integrity sha512-oSlqfGN+sbkB2Q5um/zL7z80w84FEAcLKzXBZIPyRk2F2Srg1ubhrHVKW68JCvb2+xKzAeGw35b+6gciS24PHw==
@@ -2491,16 +2481,7 @@ jest-message-util@^29.5.0, jest-message-util@^29.6.0:
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
-jest-mock@^29.5.0:
-  version "29.5.0"
-  resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-29.5.0.tgz#26e2172bcc71d8b0195081ff1f146ac7e1518aed"
-  integrity sha512-GqOzvdWDE4fAV2bWQLQCkujxYWL7RxjCnj71b5VhDAGOevB3qj3Ovg26A5NI84ZpODxyzaozXLOh2NCgkbvyaw==
-  dependencies:
-    "@jest/types" "^29.5.0"
-    "@types/node" "*"
-    jest-util "^29.5.0"
-
-jest-mock@^29.6.0:
+jest-mock@^29.5.0, jest-mock@^29.6.0:
   version "29.6.0"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-29.6.0.tgz#4643fe35a3f20ef9a71f2a61f037a2ff05702d55"
   integrity sha512-2Pb7R2w24Q0aUVn+2/vdRDL6CqGqpheDZy7zrXav8FotOpSGw/4bS2hyVoKHMEx4xzOn6EyCAGwc5czWxXeN7w==
