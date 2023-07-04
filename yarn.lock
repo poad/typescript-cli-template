@@ -528,14 +528,7 @@
     strip-ansi "^6.0.0"
     v8-to-istanbul "^9.0.1"
 
-"@jest/schemas@^29.4.3":
-  version "29.6.0"
-  resolved "https://registry.yarnpkg.com/@jest/schemas/-/schemas-29.6.0.tgz#0f4cb2c8e3dca80c135507ba5635a4fd755b0040"
-  integrity sha512-rxLjXyJBTL4LQeJW3aKo0M/+GkCOXsO+8i9Iu7eDb6KwtP65ayoDsitrdPBtujxQ88k4wI2FNYfa6TOGwSn6cQ==
-  dependencies:
-    "@sinclair/typebox" "^0.27.8"
-
-"@jest/schemas@^29.6.0":
+"@jest/schemas@^29.4.3", "@jest/schemas@^29.6.0":
   version "29.6.0"
   resolved "https://registry.yarnpkg.com/@jest/schemas/-/schemas-29.6.0.tgz#0f4cb2c8e3dca80c135507ba5635a4fd755b0040"
   integrity sha512-rxLjXyJBTL4LQeJW3aKo0M/+GkCOXsO+8i9Iu7eDb6KwtP65ayoDsitrdPBtujxQ88k4wI2FNYfa6TOGwSn6cQ==
@@ -572,13 +565,13 @@
     collect-v8-coverage "^1.0.0"
 
 "@jest/test-sequencer@^29.5.0":
-  version "29.5.0"
-  resolved "https://registry.yarnpkg.com/@jest/test-sequencer/-/test-sequencer-29.5.0.tgz#34d7d82d3081abd523dbddc038a3ddcb9f6d3cc4"
-  integrity sha512-yPafQEcKjkSfDXyvtgiV4pevSeyuA6MQr6ZIdVkWJly9vkqjnFfcfhRQqpD5whjoU8EORki752xQmjaqoFjzMQ==
+  version "29.6.0"
+  resolved "https://registry.yarnpkg.com/@jest/test-sequencer/-/test-sequencer-29.6.0.tgz#30a70e2dcc7dcf1e0f1170b97384883ce0a7d6e5"
+  integrity sha512-HYCS3LKRQotKWj2mnA3AN13PPevYZu8MJKm12lzYojpJNnn6kI/3PWmr1At/e3tUu+FHQDiOyaDVuR4EV3ezBw==
   dependencies:
-    "@jest/test-result" "^29.5.0"
+    "@jest/test-result" "^29.6.0"
     graceful-fs "^4.2.9"
-    jest-haste-map "^29.5.0"
+    jest-haste-map "^29.6.0"
     slash "^3.0.0"
 
 "@jest/transform@^29.5.0":
@@ -742,11 +735,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
-
-"@sinclair/typebox@^0.27.8":
-  version "0.27.8"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
-  integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
