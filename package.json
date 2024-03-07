@@ -24,7 +24,7 @@
     "@swc/helpers": "^0.5.6",
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.11.24",
+    "@types/node": "^20.11.25",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "chokidar": "^3.6.0",
@@ -36,7 +36,7 @@
     "prettier": "^3.2.5",
     "regenerator-runtime": "^0.13.11",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "dependencies": {
     "arg": "^5.0.2"
