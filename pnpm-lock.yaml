@@ -932,8 +932,8 @@ packages:
     resolution: {integrity: sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==}
     engines: {node: '>=8'}
 
-  electron-to-chromium@1.4.751:
-    resolution: {integrity: sha512-2DEPi++qa89SMGRhufWTiLmzqyuGmNF3SK4+PQetW1JKiZdEpF4XQonJXJCzyuYSA6mauiMhbyVhqYAP45Hvfw==}
+  electron-to-chromium@1.4.752:
+    resolution: {integrity: sha512-P3QJreYI/AUTcfBVrC4zy9KvnZWekViThgQMX/VpJ+IsOBbcX5JFpORM4qWapwWQ+agb2nYAOyn/4PMXOk0m2Q==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -3011,7 +3011,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001614
-      electron-to-chromium: 1.4.751
+      electron-to-chromium: 1.4.752
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -3161,7 +3161,7 @@ snapshots:
     dependencies:
       path-type: 4.0.0
 
-  electron-to-chromium@1.4.751: {}
+  electron-to-chromium@1.4.752: {}
 
   emittery@0.13.1: {}
 
