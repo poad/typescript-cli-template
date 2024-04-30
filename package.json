@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@swc/cli": "^0.3.12",
-    "@swc/core": "^1.5.1",
+    "@swc/core": "^1.5.2",
     "@swc/helpers": "^0.5.11",
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.12",
@@ -35,7 +35,7 @@
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.7.1"
+    "typescript-eslint": "^7.8.0"
   },
   "dependencies": {
     "arg": "^5.0.2"
