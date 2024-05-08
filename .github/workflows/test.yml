@@ -17,25 +17,29 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+
     - uses: pnpm/action-setup@v4
       name: Install pnpm
-      id: pnpm-install
       with:
         version: latest
         run_install: |
           - recursive: true
             args: [--no-frozen-lockfile]
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-
     - name: Build and Unittest
       run: pnpm all
   
   configure:
+    permissions:
+      id-token: write
+      contents: write
+      pull-requests: write
+      checks: write
+        
     runs-on: ubuntu-latest
     if: github.actor != 'dependabot[bot]'
     steps:
@@ -44,7 +48,7 @@ jobs:
       uses: poad/github-pull-request-auto-merge-enable-action@v2
       with:
         pull_request_number: ${{ github.event.pull_request.number }}
-        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ github.event.repository.name }}
         owner: ${{ github.repository_owner }}
         merge_method: SQUASH
