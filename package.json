@@ -23,7 +23,7 @@
     "@swc/core": "^1.7.26",
     "@swc/helpers": "^0.5.13",
     "@swc/jest": "^0.2.36",
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^29.5.13",
     "@types/node": "^20.16.5",
     "chokidar": "^3.6.0",
     "eslint": "^9.10.0",
