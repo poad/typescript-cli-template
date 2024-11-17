@@ -9,6 +9,8 @@ import { FlatCompat } from '@eslint/eslintrc';
 const compat = new FlatCompat();
 
 export default tseslint.config(
+  eslint.configs.recommended,
+  ...tseslint.configs.recommended,
   {
     ignores: [
       '**/*.d.ts',
@@ -21,20 +23,10 @@ export default tseslint.config(
       'out',
       '.storybook',
     ],
-  },
-  {
-    files: ['src/**/*.ts'],
-  },
-  eslint.configs.recommended,
-  ...tseslint.configs.recommended,
-  {
-    files: ['src/**/*.ts'],
+    files: ['app/**/*.{js,jsx,ts,tsx}'],
     extends: [
       ...tseslint.configs.recommended,
     ],
-  },
-  {
-    files: ['app/**/*.{js,jsx,ts,tsx}'],
     // @ts-ignore
     rules: {
       ...prettier.rules,
