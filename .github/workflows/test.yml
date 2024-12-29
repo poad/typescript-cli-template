@@ -11,7 +11,7 @@ jobs:
   test:
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.x]
 
     runs-on: ubuntu-latest
     steps:
@@ -32,22 +32,3 @@ jobs:
     - name: Build and Unittest
       run: pnpm all
   
-  configure:
-    permissions:
-      id-token: write
-      contents: write
-      pull-requests: write
-      checks: write
-        
-    runs-on: ubuntu-latest
-    if: github.actor != 'dependabot[bot]'
-    steps:
-    - name: Pull request auto merge enabler
-      if: github.event_name == 'pull_request'
-      uses: poad/github-pull-request-auto-merge-enable-action@v2
-      with:
-        pull_request_number: ${{ github.event.pull_request.number }}
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        repository: ${{ github.event.repository.name }}
-        owner: ${{ github.repository_owner }}
-        merge_method: SQUASH

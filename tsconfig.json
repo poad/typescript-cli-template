@@ -1,13 +1,12 @@
 {
   "ts-node": {
-    "esm": true,
-    "swc": true
+    "esm": true
   },
   "compilerOptions": {
-    "target": "es2022",
-    "module": "es2022",
+    "target": "esnext",
+    "module": "esnext",
     "lib": [
-      "es2022"
+      "esnext"
     ],
     "declaration": true,
     "declarationMap": true,
@@ -16,6 +15,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "types": ["vitest/globals"]
   }
 }
