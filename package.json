@@ -19,14 +19,14 @@
     "all": "pnpm lint && pnpm test"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.5",
+    "@eslint/compat": "^1.2.6",
     "@eslint/js": "^9.19.0",
     "@stylistic/eslint-plugin": "^2.13.0",
     "@stylistic/eslint-plugin-js": "^2.13.0",
     "@stylistic/eslint-plugin-plus": "^2.13.0",
     "@stylistic/eslint-plugin-ts": "^2.13.0",
     "@swc/cli": "^0.3.14",
-    "@swc/core": "^1.10.11",
+    "@swc/core": "^1.10.12",
     "@swc/helpers": "^0.5.15",
     "@types/node": "^20.17.16",
     "chokidar": "^3.6.0",
