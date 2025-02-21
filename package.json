@@ -19,14 +19,14 @@
     "all": "pnpm lint && pnpm test"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.6",
+    "@eslint/compat": "^1.2.7",
     "@eslint/js": "^9.20.0",
     "@stylistic/eslint-plugin": "^3.1.0",
     "@stylistic/eslint-plugin-js": "^3.1.0",
     "@stylistic/eslint-plugin-plus": "^3.1.0",
     "@stylistic/eslint-plugin-ts": "^3.1.0",
     "@swc/cli": "^0.3.14",
-    "@swc/core": "^1.10.16",
+    "@swc/core": "^1.10.18",
     "@swc/helpers": "^0.5.15",
     "@types/node": "^20.17.19",
     "chokidar": "^3.6.0",
@@ -34,13 +34,13 @@
     "eslint": "^9.20.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
-    "pnpm": "^10.4.0",
+    "pnpm": "^10.4.1",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.0",
-    "vite": "^6.1.0",
-    "vitest": "^3.0.5"
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.1.1",
+    "vitest": "^3.0.6"
   },
   "dependencies": {
     "arg": "^5.0.2"
