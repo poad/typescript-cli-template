@@ -26,7 +26,7 @@
     "@stylistic/eslint-plugin-plus": "^3.1.0",
     "@stylistic/eslint-plugin-ts": "^3.1.0",
     "@swc/cli": "^0.3.14",
-    "@swc/core": "^1.11.9",
+    "@swc/core": "^1.11.11",
     "@swc/helpers": "^0.5.15",
     "@types/node": "^20.17.24",
     "chokidar": "^3.6.0",
@@ -34,13 +34,13 @@
     "eslint": "^9.22.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
-    "pnpm": "^10.6.3",
+    "pnpm": "^10.6.5",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.1",
     "vite": "^6.2.2",
-    "vitest": "^3.0.8"
+    "vitest": "^3.0.9"
   },
   "dependencies": {
     "arg": "^5.0.2"
@@ -56,5 +56,5 @@
       "cross-spawn@<7.0.5": ">=7.0.5"
     }
   },
-  "packageManager": "pnpm@10.6.3+sha512.bb45e34d50a9a76e858a95837301bfb6bd6d35aea2c5d52094fa497a467c43f5c440103ce2511e9e0a2f89c3d6071baac3358fc68ac6fb75e2ceb3d2736065e6"
+  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
 }
