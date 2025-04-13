@@ -28,7 +28,7 @@
     "@swc/cli": "^0.6.0",
     "@swc/core": "^1.11.20",
     "@swc/helpers": "^0.5.17",
-    "@types/node": "^22.14.0",
+    "@types/node": "^22.14.1",
     "chokidar": "^4.0.3",
     "cross-spawn": "^7.0.6",
     "eslint": "^9.24.0",
