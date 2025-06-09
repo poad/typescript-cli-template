@@ -22,25 +22,25 @@
     "@eslint/compat": "^1.2.9",
     "@eslint/js": "^9.28.0",
     "@stylistic/eslint-plugin": "^4.4.1",
-    "@stylistic/eslint-plugin-js": "^4.2.0",
-    "@stylistic/eslint-plugin-plus": "^4.2.0",
-    "@stylistic/eslint-plugin-ts": "^4.2.0",
+    "@stylistic/eslint-plugin-js": "^4.4.1",
+    "@stylistic/eslint-plugin-plus": "^4.4.1",
+    "@stylistic/eslint-plugin-ts": "^4.4.1",
     "@swc/cli": "^0.7.7",
     "@swc/core": "^1.11.31",
     "@swc/helpers": "^0.5.17",
-    "@types/node": "^22.15.24",
+    "@types/node": "^22.15.30",
     "chokidar": "^4.0.3",
     "cross-spawn": "^7.0.6",
-    "eslint": "^9.26.0",
+    "eslint": "^9.28.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
     "pnpm": "^10.12.1",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.32.0",
+    "typescript-eslint": "^8.33.1",
     "vite": "^6.3.5",
-    "vitest": "^3.2.1"
+    "vitest": "^3.2.2"
   },
   "dependencies": {
     "arg": "^5.0.2"
@@ -56,5 +56,5 @@
       "cross-spawn@<7.0.5": ">=7.0.5"
     }
   },
-  "packageManager": "pnpm@10.10.0"
+  "packageManager": "pnpm@10.12.1"
 }
