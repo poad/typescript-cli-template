@@ -19,8 +19,8 @@ importers:
         specifier: ^9.34.0
         version: 9.34.0
       '@stylistic/eslint-plugin':
-        specifier: ^5.2.3
-        version: 5.2.3(eslint@9.34.0)
+        specifier: ^5.3.1
+        version: 5.3.1(eslint@9.34.0)
       '@swc/cli':
         specifier: ^0.7.8
         version: 0.7.8(@swc/core@1.13.5(@swc/helpers@0.5.17))(chokidar@4.0.3)
@@ -49,8 +49,8 @@ importers:
         specifier: ^7.2.1
         version: 7.2.1(eslint@9.34.0)
       pnpm:
-        specifier: ^10.15.0
-        version: 10.15.0
+        specifier: ^10.15.1
+        version: 10.15.1
       regenerator-runtime:
         specifier: ^0.14.1
         version: 0.14.1
@@ -542,8 +542,8 @@ packages:
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
     engines: {node: '>=14.16'}
 
-  '@stylistic/eslint-plugin@5.2.3':
-    resolution: {integrity: sha512-oY7GVkJGVMI5benlBDCaRrSC1qPasafyv5dOBLLv5MTilMGnErKhO6ziEfodDDIZbo5QxPUNW360VudJOFODMw==}
+  '@stylistic/eslint-plugin@5.3.1':
+    resolution: {integrity: sha512-Ykums1VYonM0TgkD0VteVq9mrlO2FhF48MDJnPyv3MktIB2ydtuhlO0AfWm7xnW1kyf5bjOqA6xc7JjviuVTxg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=9.0.0'
@@ -1707,8 +1707,8 @@ packages:
   piscina@4.9.2:
     resolution: {integrity: sha512-Fq0FERJWFEUpB4eSY59wSNwXD4RYqR+nR/WiEVcZW8IWfVBxJJafcgTEZDQo8k3w0sUarJ8RyVbbUF4GQ2LGbQ==}
 
-  pnpm@10.15.0:
-    resolution: {integrity: sha512-SG68JZ0+mZpOhpHOA7XKxKccvso5Nyqbdiy1AM/fCHPiyxar49lRse4s8BJQPwJ7mLZYTk3yJSTgx0UNnseqew==}
+  pnpm@10.15.1:
+    resolution: {integrity: sha512-NOU4wym1VTAUyo6PRTWZf5YYCh0PYUM5NXRJk1NQ2STiL4YUaCGRJk7DPRRirCFWGv+X9rsYBlNRwWLH6PbeZw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2470,7 +2470,7 @@ snapshots:
 
   '@sindresorhus/is@5.6.0': {}
 
-  '@stylistic/eslint-plugin@5.2.3(eslint@9.34.0)':
+  '@stylistic/eslint-plugin@5.3.1(eslint@9.34.0)':
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.34.0)
       '@typescript-eslint/types': 8.41.0
@@ -3827,7 +3827,7 @@ snapshots:
     optionalDependencies:
       '@napi-rs/nice': 1.1.1
 
-  pnpm@10.15.0: {}
+  pnpm@10.15.1: {}
 
   possible-typed-array-names@1.1.0: {}
 
