@@ -49,8 +49,8 @@ importers:
         specifier: ^7.2.1
         version: 7.2.1(eslint@9.35.0)
       pnpm:
-        specifier: ^10.15.1
-        version: 10.15.1
+        specifier: ^10.16.0
+        version: 10.16.0
       regenerator-runtime:
         specifier: ^0.14.1
         version: 0.14.1
@@ -1708,8 +1708,8 @@ packages:
   piscina@4.9.2:
     resolution: {integrity: sha512-Fq0FERJWFEUpB4eSY59wSNwXD4RYqR+nR/WiEVcZW8IWfVBxJJafcgTEZDQo8k3w0sUarJ8RyVbbUF4GQ2LGbQ==}
 
-  pnpm@10.15.1:
-    resolution: {integrity: sha512-NOU4wym1VTAUyo6PRTWZf5YYCh0PYUM5NXRJk1NQ2STiL4YUaCGRJk7DPRRirCFWGv+X9rsYBlNRwWLH6PbeZw==}
+  pnpm@10.16.0:
+    resolution: {integrity: sha512-gGbnsDQhe3AKmk27OgBQYdZBuhMKiZFSE6ELPKSRnBnAN77IBmr9xVm4ljX9uAaxbqZz8kaPuyiqv6E8U+P3aQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3833,7 +3833,7 @@ snapshots:
     optionalDependencies:
       '@napi-rs/nice': 1.1.1
 
-  pnpm@10.15.1: {}
+  pnpm@10.16.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
