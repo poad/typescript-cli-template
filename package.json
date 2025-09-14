@@ -25,13 +25,13 @@
     "@swc/cli": "^0.7.8",
     "@swc/core": "^1.13.5",
     "@swc/helpers": "^0.5.17",
-    "@types/node": "^24.3.1",
+    "@types/node": "^24.3.3",
     "chokidar": "^4.0.3",
     "cross-spawn": "^7.0.6",
     "eslint": "^9.35.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
-    "pnpm": "^10.16.0",
+    "pnpm": "^10.16.1",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
@@ -42,5 +42,5 @@
   "dependencies": {
     "arg": "^5.0.2"
   },
-  "packageManager": "pnpm@10.16.0"
+  "packageManager": "pnpm@10.16.1"
 }
