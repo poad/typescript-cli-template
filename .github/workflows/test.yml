@@ -25,7 +25,6 @@ jobs:
       with:
         run_install: |
           - recursive: false
-            cwd: ./ # Set to your workspace root if needed
             args: [--no-frozen-lockfile]
 
     - name: Build and Unittest
