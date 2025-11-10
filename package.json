@@ -31,7 +31,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
-    "pnpm": "^10.20.0",
+    "pnpm": "^10.21.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
@@ -42,5 +42,5 @@
   "dependencies": {
     "arg": "^5.0.2"
   },
-  "packageManager": "pnpm@10.20.0"
+  "packageManager": "pnpm@10.21.0"
 }
