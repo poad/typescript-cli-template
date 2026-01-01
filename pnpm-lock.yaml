@@ -78,8 +78,8 @@ importers:
 
 packages:
 
-  '@borewit/text-codec@0.1.1':
-    resolution: {integrity: sha512-5L/uBxmjaCIX5h8Z+uu+kA9BQLkc/Wl06UGR5ajNRxu+/XjonB5i8JpgFMrPj3LXTCPA0pv8yxUvbUi+QthGGA==}
+  '@borewit/text-codec@0.2.1':
+    resolution: {integrity: sha512-k7vvKPbf7J2fZ5klGRD9AeKfUvojuZIQ3BT5u7Jfv+puwXkUBUT5PVyMDfJZpy30CBDXGMgw7fguK/lpOMBvgw==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -2058,8 +2058,8 @@ packages:
     resolution: {integrity: sha512-PSkbLUoxOFRzJYjjxHJt9xro7D+iilgMX/C9lawzVuYiIdcihh9DXmVibBe8lmcFrRi/VzlPjBxbN7rH24q8/Q==}
     engines: {node: '>=14.0.0'}
 
-  token-types@6.1.1:
-    resolution: {integrity: sha512-kh9LVIWH5CnL63Ipf0jhlBIy0UsrMj/NJDfpsy1SqOXlLKEVyXXYrnFxFT1yOOYVGBSApeVnjPw/sBz5BfEjAQ==}
+  token-types@6.1.2:
+    resolution: {integrity: sha512-dRXchy+C0IgK8WPC6xvCHFRIWYUbqqdEIKPaKo/AcTUNzwLTK6AH7RjdLWsEZcAN/TBdtfUw3PYEgPr5VPr6ww==}
     engines: {node: '>=14.16'}
 
   ts-api-utils@2.3.0:
@@ -2261,7 +2261,7 @@ packages:
 
 snapshots:
 
-  '@borewit/text-codec@0.1.1': {}
+  '@borewit/text-codec@0.2.1': {}
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -2682,7 +2682,7 @@ snapshots:
     dependencies:
       debug: 4.4.3
       fflate: 0.8.2
-      token-types: 6.1.1
+      token-types: 6.1.2
     transitivePeerDependencies:
       - supports-color
 
@@ -3565,7 +3565,7 @@ snapshots:
     dependencies:
       '@tokenizer/inflate': 0.2.7
       strtok3: 10.3.4
-      token-types: 6.1.1
+      token-types: 6.1.2
       uint8array-extras: 1.5.0
     transitivePeerDependencies:
       - supports-color
@@ -4295,9 +4295,9 @@ snapshots:
 
   tinyrainbow@3.0.3: {}
 
-  token-types@6.1.1:
+  token-types@6.1.2:
     dependencies:
-      '@borewit/text-codec': 0.1.1
+      '@borewit/text-codec': 0.2.1
       '@tokenizer/token': 0.3.0
       ieee754: 1.2.1
 
