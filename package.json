@@ -44,5 +44,5 @@
   "dependencies": {
     "arg": "^5.0.2"
   },
-  "packageManager": "pnpm@10.28.0"
+  "packageManager": "pnpm@10.28.1"
 }
