@@ -24,7 +24,7 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@swc/cli": "^0.8.0",
     "@swc/core": "^1.15.21",
-    "@swc/helpers": "^0.5.19",
+    "@swc/helpers": "^0.5.20",
     "@types/node": "^25.5.0",
     "chokidar": "^5.0.0",
     "cross-spawn": "^7.0.6",
@@ -38,8 +38,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^6.0.2",
     "typescript-eslint": "^8.57.2",
-    "vite": "^8.0.2",
-    "vitest": "^4.1.1"
+    "vite": "^8.0.3",
+    "vitest": "^4.1.2"
   },
   "dependencies": {
     "arg": "^5.0.2"
