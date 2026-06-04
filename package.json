@@ -24,7 +24,7 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@swc/cli": "^0.8.1",
     "@swc/core": "^1.15.40",
-    "@swc/helpers": "^0.5.22",
+    "@swc/helpers": "^0.5.23",
     "@types/node": "^25.9.1",
     "chokidar": "^5.0.0",
     "cross-spawn": "^7.0.6",
