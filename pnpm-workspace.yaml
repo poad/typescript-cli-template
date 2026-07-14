@@ -3,16 +3,15 @@ allowBuilds:
   esbuild: set this to true or false
   unrs-resolver: false
 
-autoInstallPeers: true
 
-onlyBuiltDependencies:
-  - '@swc/core'
-  - esbuild
+blockExoticSubdeps: true
+
+minimumReleaseAge: 10080 # 7 days in minutes
 
 overrides:
-  '@eslint/eslintrc>ajv': ^6.12.4
-  ajv@<8.18.0: '>=8.18.0'
-  eslint>ajv: ^6.12.4
-  minimatch@<10.2.1: '>=10.2.1'
+  eslint-import-resolver-typescript: '^4.4.5'
+  semver: '>=7'
 
 strictPeerDependencies: false
+
+trustPolicy: no-downgrade
