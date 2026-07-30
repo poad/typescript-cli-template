@@ -3,12 +3,15 @@ allowBuilds:
   esbuild: set this to true or false
   unrs-resolver: false
 
-
 blockExoticSubdeps: true
 
 minimumReleaseAge: 10080 # 7 days in minutes
 
+minimumReleaseAgeExclude:
+  - brace-expansion@5.0.8
+
 overrides:
+  brace-expansion@<=5.0.7: ^5.0.8
   eslint-import-resolver-typescript: '^4.4.5'
   semver: '>=7'
 
